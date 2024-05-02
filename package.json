@@ -5,12 +5,11 @@
   "devDependencies": {
     "@types/bun": "latest"
   },
-
   "scripts": {
-    "inferredTypePredicates": "bun run ./features/inferredTypePredicates.ts",
-    "controlFlowNarrowingForConstantIndexedAccesses": "bun run ./features/controlFlowNarrowingForConstantIndexedAccesses.ts",
-    "regularExpressionSyntaxChecking": "bun run ./features/regularExpressionSyntaxChecking.ts",
-    "typeImportsInJSDoc": "bun run ./features/typeImportsInJSDoc.js"
+    "inferredTypePredicates": "bun run ./features/01-inferredTypePredicates.ts",
+    "controlFlowNarrowingForConstantIndexedAccesses": "bun run ./features/02-controlFlowNarrowingForConstantIndexedAccesses.ts",
+    "regularExpressionSyntaxChecking": "bun run ./features/03-regularExpressionSyntaxChecking.ts",
+    "typeImportsInJSDoc": "bun run ./features/04-typeImportsInJSDoc.js"
   },
   "dependencies": {
     "prettier": "^3.2.5",
